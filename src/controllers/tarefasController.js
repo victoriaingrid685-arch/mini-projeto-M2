@@ -4,7 +4,7 @@ import Tarefa from "../models/tarefa.js";
 class TarefasController {
 
 static async init() {
-    await Tarefa.sync(); // cria tabela se não existir
+    await Tarefa.sync(); 
 }
 
 static async criar(req, res, next) {

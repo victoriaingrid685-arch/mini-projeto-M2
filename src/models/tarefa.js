@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../database/index.js";
 
-// Model Tarefa — campos essenciais: titulo, descricao, status
+
 const Tarefa = sequelize.define("Tarefa", {
 titulo: {
     type: DataTypes.STRING,
@@ -18,7 +18,7 @@ status: {
 }
 }, {
 tableName: "tarefas",
-  timestamps: true, // createdAt e updatedAt automáticos
+timestamps: true, 
 createdAt: "criadoEm",
 updatedAt: "atualizadoEm"
 });
