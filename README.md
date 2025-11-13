@@ -1,9 +1,8 @@
 🗂️ To-Do List — Mini Projeto Módulo 2
 
-Aplicação criada como parte do Módulo 2 do curso Programadores do Amanhã, com o objetivo de praticar os conceitos fundamentais de APIs REST, Node.js, Express e Sequelize.
+Aplicação criada como parte do Módulo 2 do curso Programadores do Amanhã, com o objetivo de praticar conceitos fundamentais de APIs REST, Node.js, Express e Sequelize.
 
-Este projeto representa uma lista de tarefas (To-Do List), onde é possível criar, visualizar, atualizar e deletar tarefas de forma simples e organizada.
-Foi uma ótima oportunidade para entender, na prática, como o back-end conversa com o banco de dados e gerencia informações através de rotas.
+Este projeto representa uma lista de tarefas (To-Do List), permitindo criar, visualizar, atualizar e deletar tarefas de forma simples e organizada. Foi uma ótima oportunidade para entender, na prática, como o back-end conversa com o banco de dados e gerencia informações através de rotas.
 
 🚀 Tecnologias utilizadas
 
@@ -30,7 +29,7 @@ GET	/tarefas/:id	Exibe uma tarefa específica
 PUT	/tarefas/:id	Atualiza todos os dados de uma tarefa
 PATCH	/tarefas/:id/status	Atualiza apenas o status da tarefa
 DELETE	/tarefas/:id	Deleta uma tarefa pelo ID
-GET	/tarefas/concluidas	(extra) Lista apenas as tarefas concluídas
+GET	/tarefas/concluidas	(Extra) Lista apenas as tarefas concluídas
 🧠 Aprendizados
 
 Durante o desenvolvimento, foi possível:
@@ -41,28 +40,9 @@ Aprender a modelar dados e criar migrations automáticas com o Sequelize
 
 Praticar tratamento de erros e validações de rotas
 
-Testar e visualizar os retornos de uma API diretamente no Postman
+Testar e visualizar os retornos da API diretamente no Postman
 
 Criar endpoints organizados e reutilizáveis
-
-🧩 Exemplos de tarefas criadas
-[
-  {
-    "titulo": "Estudar módulo 2 do PDA",
-    "descricao": "Ver as aulas de HTTP e Express na Alura",
-    "status": "em andamento"
-  },
-  {
-    "titulo": "Atualizar currículo",
-    "descricao": "Colocar o mini projeto To-Do List no GitHub",
-    "status": "a fazer"
-  },
-  {
-    "titulo": "Treinar em casa",
-    "descricao": "Fazer 20 minutos de exercício funcional",
-    "status": "a fazer"
-  }
-]
 
 🧾 Como rodar o projeto localmente
 
@@ -93,4 +73,3 @@ http://localhost:3000/tarefas
 👩‍💻 Desenvolvido por
 
 Victoria Ingrid
-📎 GitHub — victoriaingrid685-arch
